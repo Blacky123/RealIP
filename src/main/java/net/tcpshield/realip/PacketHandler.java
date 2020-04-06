@@ -97,7 +97,7 @@ public class PacketHandler
                 if(raw != null) {
                     this.logger.warning(raw);
                 }
-                player.kickPlayer("");
+                player.kickPlayer("INTRA PE PLAY.BRATVA.EU!");
             }
         }
     }
