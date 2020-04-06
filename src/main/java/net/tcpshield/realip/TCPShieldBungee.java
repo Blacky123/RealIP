@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.BaseComponent;
+import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.PendingConnection;
 import net.md_5.bungee.api.event.PlayerHandshakeEvent;
 import net.md_5.bungee.api.plugin.Listener;
@@ -212,7 +213,7 @@ public class TCPShieldBungee
                 if (channel != null) {
                     channel.flush().close();
                 } else {
-                    connection.disconnect(new BaseComponent("FOLOSESTE PLAY.BRATVA.EU!"));
+                    connection.disconnect(new TextComponent("FOLOSESTE PLAY.BRATVA.EU!"));
                 }
             }
         }
