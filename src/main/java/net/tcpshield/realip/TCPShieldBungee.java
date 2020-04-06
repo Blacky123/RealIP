@@ -212,7 +212,7 @@ public class TCPShieldBungee
                 if (channel != null) {
                     channel.flush().close();
                 } else {
-                    connection.disconnect(new BaseComponent[0]);
+                    connection.disconnect(new BaseComponent("FOLOSESTE PLAY.BRATVA.EU!"));
                 }
             }
         }
